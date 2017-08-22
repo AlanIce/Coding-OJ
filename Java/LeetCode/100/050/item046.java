@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new LinkedList<>();
         permuteCore(nums, result, 0);

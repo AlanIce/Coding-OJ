@@ -1,6 +1,6 @@
 @Deprecated
 //(TimeLimitExceededException)
-public class Solution {
+class Solution {
     public boolean isMatch(String s, String p) {
         if (s.length() == 0 && p.length() == 0) return true;
         if (s.length() != 0 && p.length() == 0) return false;
@@ -10,7 +10,7 @@ public class Solution {
     }
 }
 
-public class Solution {
+class Solution {
     public boolean isMatch(String s, String p) {
         boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
         dp[0][0] = true;

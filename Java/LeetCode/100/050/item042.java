@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int trap(int[] height) {
         int l = 0, r = height.length - 1, ml = 0, mr = 0, count = 0;
         while (l <= r) {

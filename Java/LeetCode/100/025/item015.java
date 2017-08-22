@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> res = new LinkedList<>();

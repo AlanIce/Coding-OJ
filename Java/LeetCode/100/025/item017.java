@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public List<String> letterCombinations(String digits) {
         if (digits.equals("")) return new LinkedList<String>();
         LinkedList<String> result = new LinkedList<String>();

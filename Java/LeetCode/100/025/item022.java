@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> result = new LinkedList<>();
         generateParenthesisCore("", result, 0, 0, n);

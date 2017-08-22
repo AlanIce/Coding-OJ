@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (k < 2) return  head;
         ListNode node = head;

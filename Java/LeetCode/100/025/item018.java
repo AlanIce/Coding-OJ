@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     private List<List<Integer>> result = new LinkedList<>();
 
     public List<List<Integer>> fourSum(int[] nums, int target) {

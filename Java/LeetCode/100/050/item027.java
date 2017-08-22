@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int removeElement(int[] nums, int val) {
         int lo = 0, hi = nums.length;
         while (lo < hi) {

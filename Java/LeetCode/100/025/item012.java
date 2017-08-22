@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public String intToRoman(int num) {
         String M[] = {"", "M", "MM", "MMM"};
         String C[] = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};

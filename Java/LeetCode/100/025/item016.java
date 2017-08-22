@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int N = nums.length, result = Integer.MAX_VALUE;

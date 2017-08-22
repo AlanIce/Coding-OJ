@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int longestValidParentheses(String s) {
         int result = 0;
         Stack<Integer> st = new Stack<>();
@@ -19,7 +19,7 @@ public class Solution {
     }
 }
 
-public class Solution {
+class Solution {
     public int longestValidParentheses(String s) {
         int result = 0;
         int[] dp = new int[s.length()];

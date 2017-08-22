@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public static List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res = new ArrayList<Integer>();
         if (s == null || words == null || words.length == 0) return res;
