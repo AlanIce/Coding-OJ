@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public String countAndSay(int n) {
         StringBuilder s = new StringBuilder("1");
         for (int i = 1; i < n; i++) {

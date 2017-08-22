@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public boolean isMatch(String s, String p) {
         if (s.equals("") && p.equals("")) return true;
         if (!s.equals("") && p.equals("")) return false;

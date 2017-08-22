@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public boolean isValidSudoku(char[][] board) {
         boolean[][] use1 = new boolean[9][9], use2 = new boolean[9][9], use3 = new boolean[9][9];
         for (int i = 0; i < 9; i++)

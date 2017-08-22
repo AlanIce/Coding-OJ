@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int totalNQueens(int n) {
         List<List<String>> result = new LinkedList<>();
         int[] queens = new int[n];

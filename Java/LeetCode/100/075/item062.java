@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int uniquePaths(int m, int n) {
         if (m > n) return uniquePaths(n, m);
         long count = 1;

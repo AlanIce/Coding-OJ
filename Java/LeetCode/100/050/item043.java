@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public String multiply(String num1, String num2) {
         char[] num = new char[num1.length() + num2.length()];
         for (int i = num1.length() - 1; i >= 0; i--)

@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public String convert(String s, int numRows) {
         if (numRows < 2) return s;
         int len = s.length();

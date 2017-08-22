@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int divide(int dividend, int divisor) {
         int sign = ( dividend > 0 ^ divisor > 0 ) ? -1 : 1;
         if (divisor == 0) return dividend < 0 ? Integer.MAX_VALUE : Integer.MAX_VALUE;

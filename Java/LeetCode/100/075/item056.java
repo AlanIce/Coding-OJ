@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public List<Interval> merge(List<Interval> intervals) {
         if (intervals.size() < 2) return intervals;
         List<Interval> result = new ArrayList<>();
@@ -16,7 +16,7 @@ public class Solution {
     }
 }
 
-public class Solution {
+class Solution {
     public List<Interval> merge(List<Interval> intervals) {
         int n = intervals.size();
         int[] starts = new int[n];

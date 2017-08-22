@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public void nextPermutation(int[] nums) {
         int k = nums.length - 1;
         while (--k >= 0 && nums[k] >= nums[k + 1]) ;

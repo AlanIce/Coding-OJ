@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
         List<Interval> result = new LinkedList<>();
         int i = 0;

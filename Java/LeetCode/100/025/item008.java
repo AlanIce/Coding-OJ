@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int myAtoi(String str) {
         str = str.trim();
         if (str.length() == 0) return 0;

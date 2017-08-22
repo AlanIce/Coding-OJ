@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int minPathSum(int[][] grid) {
         int width = grid[0].length;
         if (width == 0) return 0;

@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public String getPermutation(int n, int k) {
         k--;
         List<Integer> list = new LinkedList<>();

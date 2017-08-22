@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
 
     boolean[][] use1 = new boolean[9][9];
     boolean[][] use2 = new boolean[9][9];

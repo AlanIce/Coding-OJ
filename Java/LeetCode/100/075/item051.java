@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Solution {
+class Solution {
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> result = new LinkedList<>();
         int[] queens = new int[n];
