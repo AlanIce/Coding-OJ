@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
         int a = 0x80000000, b = 0x1;
